@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F41EE27142B586A0029CA47 /* AReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8784142B542B0077B6F2 /* AReverbModel.cpp */; };
+		9F41EE28142B586A0029CA47 /* AReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8785142B542B0077B6F2 /* AReverbModel.h */; };
+		9F41EE29142B586A0029CA47 /* DelayReverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8786142B542B0077B6F2 /* DelayReverb.cpp */; };
+		9F41EE2A142B586A0029CA47 /* DelayReverb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8787142B542B0077B6F2 /* DelayReverb.h */; };
+		9F41EE2B142B586A0029CA47 /* ExternalInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8788142B542B0077B6F2 /* ExternalInterface.cpp */; };
+		9F41EE2C142B586A0029CA47 /* ExternalInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8789142B542B0077B6F2 /* ExternalInterface.h */; };
+		9F41EE2D142B586A0029CA47 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B878A142B542B0077B6F2 /* File.cpp */; };
+		9F41EE2E142B586A0029CA47 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B878B142B542B0077B6F2 /* File.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE2F142B586A0029CA47 /* FileStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B878C142B542B0077B6F2 /* FileStream.cpp */; };
+		9F41EE30142B586A0029CA47 /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B878D142B542B0077B6F2 /* FileStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE31142B586A0029CA47 /* allpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B878F142B542B0077B6F2 /* allpass.cpp */; };
+		9F41EE32142B586A0029CA47 /* allpass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8790142B542B0077B6F2 /* allpass.h */; };
+		9F41EE33142B586A0029CA47 /* comb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8791142B542B0077B6F2 /* comb.cpp */; };
+		9F41EE34142B586A0029CA47 /* comb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8792142B542B0077B6F2 /* comb.h */; };
+		9F41EE35142B586A0029CA47 /* denormals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8793142B542B0077B6F2 /* denormals.h */; };
+		9F41EE36142B586A0029CA47 /* revmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8794142B542B0077B6F2 /* revmodel.cpp */; };
+		9F41EE37142B586A0029CA47 /* revmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8795142B542B0077B6F2 /* revmodel.h */; };
+		9F41EE38142B586A0029CA47 /* tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8796142B542B0077B6F2 /* tuning.h */; };
+		9F41EE39142B586A0029CA47 /* FreeverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8797142B542B0077B6F2 /* FreeverbModel.cpp */; };
+		9F41EE3A142B586A0029CA47 /* FreeverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8798142B542B0077B6F2 /* FreeverbModel.h */; };
+		9F41EE3B142B586A0029CA47 /* LA32Ramp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8799142B542B0077B6F2 /* LA32Ramp.cpp */; };
+		9F41EE3C142B586A0029CA47 /* LA32Ramp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B879A142B542B0077B6F2 /* LA32Ramp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE3D142B586A0029CA47 /* mmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B879B142B542B0077B6F2 /* mmath.h */; };
+		9F41EE3E142B586A0029CA47 /* mt32emu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B879C142B542B0077B6F2 /* mt32emu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE3F142B586A0029CA47 /* Part.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B879D142B542B0077B6F2 /* Part.cpp */; };
+		9F41EE40142B586A0029CA47 /* Part.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B879E142B542B0077B6F2 /* Part.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE41142B586A0029CA47 /* Partial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B879F142B542B0077B6F2 /* Partial.cpp */; };
+		9F41EE42142B586A0029CA47 /* Partial.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87A0142B542B0077B6F2 /* Partial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE43142B586A0029CA47 /* PartialManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87A1142B542B0077B6F2 /* PartialManager.cpp */; };
+		9F41EE44142B586A0029CA47 /* PartialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87A2142B542B0077B6F2 /* PartialManager.h */; };
+		9F41EE45142B586A0029CA47 /* Poly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87A3142B542B0077B6F2 /* Poly.cpp */; };
+		9F41EE46142B586A0029CA47 /* Poly.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87A4142B542B0077B6F2 /* Poly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE47142B586A0029CA47 /* ROMInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87A5142B542B0077B6F2 /* ROMInfo.cpp */; };
+		9F41EE48142B586A0029CA47 /* ROMInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87A6142B542B0077B6F2 /* ROMInfo.h */; };
+		9F41EE49142B586A0029CA47 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87A9142B542B0077B6F2 /* sha1.cpp */; };
+		9F41EE4A142B586A0029CA47 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87AA142B542B0077B6F2 /* sha1.h */; };
+		9F41EE4B142B586A0029CA47 /* Structures.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87AB142B542B0077B6F2 /* Structures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE4C142B586A0029CA47 /* Synth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87AC142B542B0077B6F2 /* Synth.cpp */; };
+		9F41EE4D142B586A0029CA47 /* Synth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87AD142B542B0077B6F2 /* Synth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE4E142B586A0029CA47 /* Tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87AE142B542B0077B6F2 /* Tables.cpp */; };
+		9F41EE4F142B586A0029CA47 /* Tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87AF142B542B0077B6F2 /* Tables.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE50142B586A0029CA47 /* TVA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87B0142B542B0077B6F2 /* TVA.cpp */; };
+		9F41EE51142B586A0029CA47 /* TVA.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87B1142B542B0077B6F2 /* TVA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE52142B586A0029CA47 /* TVF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87B2142B542B0077B6F2 /* TVF.cpp */; };
+		9F41EE53142B586A0029CA47 /* TVF.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87B3142B542B0077B6F2 /* TVF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F41EE54142B586A0029CA47 /* TVP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87B4142B542B0077B6F2 /* TVP.cpp */; };
+		9F41EE55142B586A0029CA47 /* TVP.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87B5142B542B0077B6F2 /* TVP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F41EE22142B585B0029CA47 /* MT32Emu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MT32Emu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F41EE23142B585B0029CA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8B8784142B542B0077B6F2 /* AReverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AReverbModel.cpp; sourceTree = "<group>"; };
+		9F8B8785142B542B0077B6F2 /* AReverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AReverbModel.h; sourceTree = "<group>"; };
+		9F8B8786142B542B0077B6F2 /* DelayReverb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DelayReverb.cpp; sourceTree = "<group>"; };
+		9F8B8787142B542B0077B6F2 /* DelayReverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayReverb.h; sourceTree = "<group>"; };
+		9F8B8788142B542B0077B6F2 /* ExternalInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExternalInterface.cpp; sourceTree = "<group>"; };
+		9F8B8789142B542B0077B6F2 /* ExternalInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalInterface.h; sourceTree = "<group>"; };
+		9F8B878A142B542B0077B6F2 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		9F8B878B142B542B0077B6F2 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		9F8B878C142B542B0077B6F2 /* FileStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileStream.cpp; sourceTree = "<group>"; };
+		9F8B878D142B542B0077B6F2 /* FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileStream.h; sourceTree = "<group>"; };
+		9F8B878F142B542B0077B6F2 /* allpass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = allpass.cpp; sourceTree = "<group>"; };
+		9F8B8790142B542B0077B6F2 /* allpass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allpass.h; sourceTree = "<group>"; };
+		9F8B8791142B542B0077B6F2 /* comb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = comb.cpp; sourceTree = "<group>"; };
+		9F8B8792142B542B0077B6F2 /* comb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comb.h; sourceTree = "<group>"; };
+		9F8B8793142B542B0077B6F2 /* denormals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = denormals.h; sourceTree = "<group>"; };
+		9F8B8794142B542B0077B6F2 /* revmodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = revmodel.cpp; sourceTree = "<group>"; };
+		9F8B8795142B542B0077B6F2 /* revmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revmodel.h; sourceTree = "<group>"; };
+		9F8B8796142B542B0077B6F2 /* tuning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tuning.h; sourceTree = "<group>"; };
+		9F8B8797142B542B0077B6F2 /* FreeverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FreeverbModel.cpp; sourceTree = "<group>"; };
+		9F8B8798142B542B0077B6F2 /* FreeverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeverbModel.h; sourceTree = "<group>"; };
+		9F8B8799142B542B0077B6F2 /* LA32Ramp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LA32Ramp.cpp; sourceTree = "<group>"; };
+		9F8B879A142B542B0077B6F2 /* LA32Ramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LA32Ramp.h; sourceTree = "<group>"; };
+		9F8B879B142B542B0077B6F2 /* mmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmath.h; sourceTree = "<group>"; };
+		9F8B879C142B542B0077B6F2 /* mt32emu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mt32emu.h; sourceTree = "<group>"; };
+		9F8B879D142B542B0077B6F2 /* Part.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Part.cpp; sourceTree = "<group>"; };
+		9F8B879E142B542B0077B6F2 /* Part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part.h; sourceTree = "<group>"; };
+		9F8B879F142B542B0077B6F2 /* Partial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Partial.cpp; sourceTree = "<group>"; };
+		9F8B87A0142B542B0077B6F2 /* Partial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Partial.h; sourceTree = "<group>"; };
+		9F8B87A1142B542B0077B6F2 /* PartialManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PartialManager.cpp; sourceTree = "<group>"; };
+		9F8B87A2142B542B0077B6F2 /* PartialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartialManager.h; sourceTree = "<group>"; };
+		9F8B87A3142B542B0077B6F2 /* Poly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Poly.cpp; sourceTree = "<group>"; };
+		9F8B87A4142B542B0077B6F2 /* Poly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poly.h; sourceTree = "<group>"; };
+		9F8B87A5142B542B0077B6F2 /* ROMInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ROMInfo.cpp; sourceTree = "<group>"; };
+		9F8B87A6142B542B0077B6F2 /* ROMInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROMInfo.h; sourceTree = "<group>"; };
+		9F8B87A9142B542B0077B6F2 /* sha1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
+		9F8B87AA142B542B0077B6F2 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		9F8B87AB142B542B0077B6F2 /* Structures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structures.h; sourceTree = "<group>"; };
+		9F8B87AC142B542B0077B6F2 /* Synth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Synth.cpp; sourceTree = "<group>"; };
+		9F8B87AD142B542B0077B6F2 /* Synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Synth.h; sourceTree = "<group>"; };
+		9F8B87AE142B542B0077B6F2 /* Tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tables.cpp; sourceTree = "<group>"; };
+		9F8B87AF142B542B0077B6F2 /* Tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tables.h; sourceTree = "<group>"; };
+		9F8B87B0142B542B0077B6F2 /* TVA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVA.cpp; sourceTree = "<group>"; };
+		9F8B87B1142B542B0077B6F2 /* TVA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVA.h; sourceTree = "<group>"; };
+		9F8B87B2142B542B0077B6F2 /* TVF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVF.cpp; sourceTree = "<group>"; };
+		9F8B87B3142B542B0077B6F2 /* TVF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVF.h; sourceTree = "<group>"; };
+		9F8B87B4142B542B0077B6F2 /* TVP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVP.cpp; sourceTree = "<group>"; };
+		9F8B87B5142B542B0077B6F2 /* TVP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVP.h; sourceTree = "<group>"; };
+		9F8B8B0A142B57830077B6F2 /* libmt32emu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmt32emu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8B8B07142B57830077B6F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8B8732142B53030077B6F2 = {
+			isa = PBXGroup;
+			children = (
+				9F8B874E142B542B0077B6F2 /* munt */,
+				9F8B873E142B53030077B6F2 /* Products */,
+				9F41EE23142B585B0029CA47 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8B873E142B53030077B6F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B8B0A142B57830077B6F2 /* libmt32emu.a */,
+				9F41EE22142B585B0029CA47 /* MT32Emu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8B874E142B542B0077B6F2 /* munt */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B877C142B542B0077B6F2 /* mt32emu */,
+			);
+			path = munt;
+			sourceTree = "<group>";
+		};
+		9F8B877C142B542B0077B6F2 /* mt32emu */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B8783142B542B0077B6F2 /* src */,
+			);
+			path = mt32emu;
+			sourceTree = "<group>";
+		};
+		9F8B8783142B542B0077B6F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B8784142B542B0077B6F2 /* AReverbModel.cpp */,
+				9F8B8785142B542B0077B6F2 /* AReverbModel.h */,
+				9F8B8786142B542B0077B6F2 /* DelayReverb.cpp */,
+				9F8B8787142B542B0077B6F2 /* DelayReverb.h */,
+				9F8B8788142B542B0077B6F2 /* ExternalInterface.cpp */,
+				9F8B8789142B542B0077B6F2 /* ExternalInterface.h */,
+				9F8B878A142B542B0077B6F2 /* File.cpp */,
+				9F8B878B142B542B0077B6F2 /* File.h */,
+				9F8B878C142B542B0077B6F2 /* FileStream.cpp */,
+				9F8B878D142B542B0077B6F2 /* FileStream.h */,
+				9F8B878E142B542B0077B6F2 /* freeverb */,
+				9F8B8797142B542B0077B6F2 /* FreeverbModel.cpp */,
+				9F8B8798142B542B0077B6F2 /* FreeverbModel.h */,
+				9F8B8799142B542B0077B6F2 /* LA32Ramp.cpp */,
+				9F8B879A142B542B0077B6F2 /* LA32Ramp.h */,
+				9F8B879B142B542B0077B6F2 /* mmath.h */,
+				9F8B879C142B542B0077B6F2 /* mt32emu.h */,
+				9F8B879D142B542B0077B6F2 /* Part.cpp */,
+				9F8B879E142B542B0077B6F2 /* Part.h */,
+				9F8B879F142B542B0077B6F2 /* Partial.cpp */,
+				9F8B87A0142B542B0077B6F2 /* Partial.h */,
+				9F8B87A1142B542B0077B6F2 /* PartialManager.cpp */,
+				9F8B87A2142B542B0077B6F2 /* PartialManager.h */,
+				9F8B87A3142B542B0077B6F2 /* Poly.cpp */,
+				9F8B87A4142B542B0077B6F2 /* Poly.h */,
+				9F8B87A5142B542B0077B6F2 /* ROMInfo.cpp */,
+				9F8B87A6142B542B0077B6F2 /* ROMInfo.h */,
+				9F8B87A7142B542B0077B6F2 /* sha1 */,
+				9F8B87AB142B542B0077B6F2 /* Structures.h */,
+				9F8B87AC142B542B0077B6F2 /* Synth.cpp */,
+				9F8B87AD142B542B0077B6F2 /* Synth.h */,
+				9F8B87AE142B542B0077B6F2 /* Tables.cpp */,
+				9F8B87AF142B542B0077B6F2 /* Tables.h */,
+				9F8B87B0142B542B0077B6F2 /* TVA.cpp */,
+				9F8B87B1142B542B0077B6F2 /* TVA.h */,
+				9F8B87B2142B542B0077B6F2 /* TVF.cpp */,
+				9F8B87B3142B542B0077B6F2 /* TVF.h */,
+				9F8B87B4142B542B0077B6F2 /* TVP.cpp */,
+				9F8B87B5142B542B0077B6F2 /* TVP.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9F8B878E142B542B0077B6F2 /* freeverb */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B878F142B542B0077B6F2 /* allpass.cpp */,
+				9F8B8790142B542B0077B6F2 /* allpass.h */,
+				9F8B8791142B542B0077B6F2 /* comb.cpp */,
+				9F8B8792142B542B0077B6F2 /* comb.h */,
+				9F8B8793142B542B0077B6F2 /* denormals.h */,
+				9F8B8794142B542B0077B6F2 /* revmodel.cpp */,
+				9F8B8795142B542B0077B6F2 /* revmodel.h */,
+				9F8B8796142B542B0077B6F2 /* tuning.h */,
+			);
+			path = freeverb;
+			sourceTree = "<group>";
+		};
+		9F8B87A7142B542B0077B6F2 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B87A9142B542B0077B6F2 /* sha1.cpp */,
+				9F8B87AA142B542B0077B6F2 /* sha1.h */,
+			);
+			path = sha1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F41EE1D142B585B0029CA47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F41EE28142B586A0029CA47 /* AReverbModel.h in Headers */,
+				9F41EE2A142B586A0029CA47 /* DelayReverb.h in Headers */,
+				9F41EE2C142B586A0029CA47 /* ExternalInterface.h in Headers */,
+				9F41EE2E142B586A0029CA47 /* File.h in Headers */,
+				9F41EE30142B586A0029CA47 /* FileStream.h in Headers */,
+				9F41EE32142B586A0029CA47 /* allpass.h in Headers */,
+				9F41EE34142B586A0029CA47 /* comb.h in Headers */,
+				9F41EE35142B586A0029CA47 /* denormals.h in Headers */,
+				9F41EE37142B586A0029CA47 /* revmodel.h in Headers */,
+				9F41EE38142B586A0029CA47 /* tuning.h in Headers */,
+				9F41EE3A142B586A0029CA47 /* FreeverbModel.h in Headers */,
+				9F41EE3C142B586A0029CA47 /* LA32Ramp.h in Headers */,
+				9F41EE3D142B586A0029CA47 /* mmath.h in Headers */,
+				9F41EE3E142B586A0029CA47 /* mt32emu.h in Headers */,
+				9F41EE40142B586A0029CA47 /* Part.h in Headers */,
+				9F41EE42142B586A0029CA47 /* Partial.h in Headers */,
+				9F41EE44142B586A0029CA47 /* PartialManager.h in Headers */,
+				9F41EE46142B586A0029CA47 /* Poly.h in Headers */,
+				9F41EE48142B586A0029CA47 /* ROMInfo.h in Headers */,
+				9F41EE4A142B586A0029CA47 /* sha1.h in Headers */,
+				9F41EE4B142B586A0029CA47 /* Structures.h in Headers */,
+				9F41EE4D142B586A0029CA47 /* Synth.h in Headers */,
+				9F41EE4F142B586A0029CA47 /* Tables.h in Headers */,
+				9F41EE51142B586A0029CA47 /* TVA.h in Headers */,
+				9F41EE53142B586A0029CA47 /* TVF.h in Headers */,
+				9F41EE55142B586A0029CA47 /* TVP.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8B8B08142B57830077B6F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F41EE21142B585B0029CA47 /* Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F41EE26142B585B0029CA47 /* Build configuration list for PBXNativeTarget "Framework" */;
+			buildPhases = (
+				9F41EE1D142B585B0029CA47 /* Headers */,
+				9F41EE1E142B585B0029CA47 /* Resources */,
+				9F41EE1F142B585B0029CA47 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Munt;
+			productReference = 9F41EE22142B585B0029CA47 /* MT32Emu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F8B8B09142B57830077B6F2 /* Static Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8B8B17142B57830077B6F2 /* Build configuration list for PBXNativeTarget "Static Library" */;
+			buildPhases = (
+				9F8B8B06142B57830077B6F2 /* Sources */,
+				9F8B8B07142B57830077B6F2 /* Frameworks */,
+				9F8B8B08142B57830077B6F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Static Library";
+			productName = munt;
+			productReference = 9F8B8B0A142B57830077B6F2 /* libmt32emu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8B8734142B53030077B6F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = 40watt;
+			};
+			buildConfigurationList = 9F8B8737142B53030077B6F2 /* Build configuration list for PBXProject "Boxer-Munt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F8B8732142B53030077B6F2;
+			productRefGroup = 9F8B873E142B53030077B6F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8B8B09142B57830077B6F2 /* Static Library */,
+				9F41EE21142B585B0029CA47 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F41EE1E142B585B0029CA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F41EE1F142B585B0029CA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F41EE27142B586A0029CA47 /* AReverbModel.cpp in Sources */,
+				9F41EE29142B586A0029CA47 /* DelayReverb.cpp in Sources */,
+				9F41EE2B142B586A0029CA47 /* ExternalInterface.cpp in Sources */,
+				9F41EE2D142B586A0029CA47 /* File.cpp in Sources */,
+				9F41EE2F142B586A0029CA47 /* FileStream.cpp in Sources */,
+				9F41EE31142B586A0029CA47 /* allpass.cpp in Sources */,
+				9F41EE33142B586A0029CA47 /* comb.cpp in Sources */,
+				9F41EE36142B586A0029CA47 /* revmodel.cpp in Sources */,
+				9F41EE39142B586A0029CA47 /* FreeverbModel.cpp in Sources */,
+				9F41EE3B142B586A0029CA47 /* LA32Ramp.cpp in Sources */,
+				9F41EE3F142B586A0029CA47 /* Part.cpp in Sources */,
+				9F41EE41142B586A0029CA47 /* Partial.cpp in Sources */,
+				9F41EE43142B586A0029CA47 /* PartialManager.cpp in Sources */,
+				9F41EE45142B586A0029CA47 /* Poly.cpp in Sources */,
+				9F41EE47142B586A0029CA47 /* ROMInfo.cpp in Sources */,
+				9F41EE49142B586A0029CA47 /* sha1.cpp in Sources */,
+				9F41EE4C142B586A0029CA47 /* Synth.cpp in Sources */,
+				9F41EE4E142B586A0029CA47 /* Tables.cpp in Sources */,
+				9F41EE50142B586A0029CA47 /* TVA.cpp in Sources */,
+				9F41EE52142B586A0029CA47 /* TVF.cpp in Sources */,
+				9F41EE54142B586A0029CA47 /* TVP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8B8B06142B57830077B6F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F41EE24142B585B0029CA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MT32Emu;
+			};
+			name = Debug;
+		};
+		9F41EE25142B585B0029CA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MT32Emu;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		9F8B8749142B53030077B6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					x86_64,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64 ppc";
+			};
+			name = Debug;
+		};
+		9F8B874A142B53030077B6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					x86_64,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64 ppc";
+			};
+			name = Release;
+		};
+		9F8B8B15142B57830077B6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = mt32emu;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9F8B8B16142B57830077B6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = mt32emu;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F41EE26142B585B0029CA47 /* Build configuration list for PBXNativeTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F41EE24142B585B0029CA47 /* Debug */,
+				9F41EE25142B585B0029CA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8B8737142B53030077B6F2 /* Build configuration list for PBXProject "Boxer-Munt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8B8749142B53030077B6F2 /* Debug */,
+				9F8B874A142B53030077B6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8B8B17142B57830077B6F2 /* Build configuration list for PBXNativeTarget "Static Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8B8B15142B57830077B6F2 /* Debug */,
+				9F8B8B16142B57830077B6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8B8734142B53030077B6F2 /* Project object */;
+}
