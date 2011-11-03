@@ -1,0 +1,3 @@
+[submodule "munt"]
+	path = munt
+	url = git://github.com/munt/munt.git
