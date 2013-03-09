@@ -7,106 +7,167 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F41EE27142B586A0029CA47 /* AReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8784142B542B0077B6F2 /* AReverbModel.cpp */; };
-		9F41EE28142B586A0029CA47 /* AReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8785142B542B0077B6F2 /* AReverbModel.h */; };
-		9F41EE29142B586A0029CA47 /* DelayReverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8786142B542B0077B6F2 /* DelayReverb.cpp */; };
-		9F41EE2A142B586A0029CA47 /* DelayReverb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8787142B542B0077B6F2 /* DelayReverb.h */; };
-		9F41EE2B142B586A0029CA47 /* ExternalInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8788142B542B0077B6F2 /* ExternalInterface.cpp */; };
-		9F41EE2C142B586A0029CA47 /* ExternalInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8789142B542B0077B6F2 /* ExternalInterface.h */; };
-		9F41EE2D142B586A0029CA47 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B878A142B542B0077B6F2 /* File.cpp */; };
-		9F41EE2E142B586A0029CA47 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B878B142B542B0077B6F2 /* File.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE2F142B586A0029CA47 /* FileStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B878C142B542B0077B6F2 /* FileStream.cpp */; };
-		9F41EE30142B586A0029CA47 /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B878D142B542B0077B6F2 /* FileStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE31142B586A0029CA47 /* allpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B878F142B542B0077B6F2 /* allpass.cpp */; };
-		9F41EE32142B586A0029CA47 /* allpass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8790142B542B0077B6F2 /* allpass.h */; };
-		9F41EE33142B586A0029CA47 /* comb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8791142B542B0077B6F2 /* comb.cpp */; };
-		9F41EE34142B586A0029CA47 /* comb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8792142B542B0077B6F2 /* comb.h */; };
-		9F41EE35142B586A0029CA47 /* denormals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8793142B542B0077B6F2 /* denormals.h */; };
-		9F41EE36142B586A0029CA47 /* revmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8794142B542B0077B6F2 /* revmodel.cpp */; };
-		9F41EE37142B586A0029CA47 /* revmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8795142B542B0077B6F2 /* revmodel.h */; };
-		9F41EE38142B586A0029CA47 /* tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8796142B542B0077B6F2 /* tuning.h */; };
-		9F41EE39142B586A0029CA47 /* FreeverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8797142B542B0077B6F2 /* FreeverbModel.cpp */; };
-		9F41EE3A142B586A0029CA47 /* FreeverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B8798142B542B0077B6F2 /* FreeverbModel.h */; };
-		9F41EE3B142B586A0029CA47 /* LA32Ramp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B8799142B542B0077B6F2 /* LA32Ramp.cpp */; };
-		9F41EE3C142B586A0029CA47 /* LA32Ramp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B879A142B542B0077B6F2 /* LA32Ramp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE3D142B586A0029CA47 /* mmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B879B142B542B0077B6F2 /* mmath.h */; };
-		9F41EE3E142B586A0029CA47 /* mt32emu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B879C142B542B0077B6F2 /* mt32emu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE3F142B586A0029CA47 /* Part.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B879D142B542B0077B6F2 /* Part.cpp */; };
-		9F41EE40142B586A0029CA47 /* Part.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B879E142B542B0077B6F2 /* Part.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE41142B586A0029CA47 /* Partial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B879F142B542B0077B6F2 /* Partial.cpp */; };
-		9F41EE42142B586A0029CA47 /* Partial.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87A0142B542B0077B6F2 /* Partial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE43142B586A0029CA47 /* PartialManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87A1142B542B0077B6F2 /* PartialManager.cpp */; };
-		9F41EE44142B586A0029CA47 /* PartialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87A2142B542B0077B6F2 /* PartialManager.h */; };
-		9F41EE45142B586A0029CA47 /* Poly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87A3142B542B0077B6F2 /* Poly.cpp */; };
-		9F41EE46142B586A0029CA47 /* Poly.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87A4142B542B0077B6F2 /* Poly.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE47142B586A0029CA47 /* ROMInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87A5142B542B0077B6F2 /* ROMInfo.cpp */; };
-		9F41EE48142B586A0029CA47 /* ROMInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87A6142B542B0077B6F2 /* ROMInfo.h */; };
-		9F41EE49142B586A0029CA47 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87A9142B542B0077B6F2 /* sha1.cpp */; };
-		9F41EE4A142B586A0029CA47 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87AA142B542B0077B6F2 /* sha1.h */; };
-		9F41EE4B142B586A0029CA47 /* Structures.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87AB142B542B0077B6F2 /* Structures.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE4C142B586A0029CA47 /* Synth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87AC142B542B0077B6F2 /* Synth.cpp */; };
-		9F41EE4D142B586A0029CA47 /* Synth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87AD142B542B0077B6F2 /* Synth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE4E142B586A0029CA47 /* Tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87AE142B542B0077B6F2 /* Tables.cpp */; };
-		9F41EE4F142B586A0029CA47 /* Tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87AF142B542B0077B6F2 /* Tables.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE50142B586A0029CA47 /* TVA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87B0142B542B0077B6F2 /* TVA.cpp */; };
-		9F41EE51142B586A0029CA47 /* TVA.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87B1142B542B0077B6F2 /* TVA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE52142B586A0029CA47 /* TVF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87B2142B542B0077B6F2 /* TVF.cpp */; };
-		9F41EE53142B586A0029CA47 /* TVF.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87B3142B542B0077B6F2 /* TVF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F41EE54142B586A0029CA47 /* TVP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B87B4142B542B0077B6F2 /* TVP.cpp */; };
-		9F41EE55142B586A0029CA47 /* TVP.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B87B5142B542B0077B6F2 /* TVP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD865F916EB66AF00352A00 /* AReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C316EB66AF00352A00 /* AReverbModel.cpp */; };
+		9FD865FA16EB66AF00352A00 /* AReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C316EB66AF00352A00 /* AReverbModel.cpp */; };
+		9FD865FB16EB66AF00352A00 /* AReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C416EB66AF00352A00 /* AReverbModel.h */; };
+		9FD865FC16EB66AF00352A00 /* AReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C416EB66AF00352A00 /* AReverbModel.h */; };
+		9FD865FD16EB66AF00352A00 /* BReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C516EB66AF00352A00 /* BReverbModel.cpp */; };
+		9FD865FE16EB66AF00352A00 /* BReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C516EB66AF00352A00 /* BReverbModel.cpp */; };
+		9FD865FF16EB66AF00352A00 /* BReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C616EB66AF00352A00 /* BReverbModel.h */; };
+		9FD8660016EB66AF00352A00 /* BReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C616EB66AF00352A00 /* BReverbModel.h */; };
+		9FD8660116EB66AF00352A00 /* DelayReverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C716EB66AF00352A00 /* DelayReverb.cpp */; };
+		9FD8660216EB66AF00352A00 /* DelayReverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C716EB66AF00352A00 /* DelayReverb.cpp */; };
+		9FD8660316EB66AF00352A00 /* DelayReverb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C816EB66AF00352A00 /* DelayReverb.h */; };
+		9FD8660416EB66AF00352A00 /* DelayReverb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C816EB66AF00352A00 /* DelayReverb.h */; };
+		9FD8660516EB66AF00352A00 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C916EB66AF00352A00 /* File.cpp */; };
+		9FD8660616EB66AF00352A00 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C916EB66AF00352A00 /* File.cpp */; };
+		9FD8660716EB66AF00352A00 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CA16EB66AF00352A00 /* File.h */; };
+		9FD8660816EB66AF00352A00 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CA16EB66AF00352A00 /* File.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8660916EB66AF00352A00 /* FileStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865CB16EB66AF00352A00 /* FileStream.cpp */; };
+		9FD8660A16EB66AF00352A00 /* FileStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865CB16EB66AF00352A00 /* FileStream.cpp */; };
+		9FD8660B16EB66AF00352A00 /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CC16EB66AF00352A00 /* FileStream.h */; };
+		9FD8660C16EB66AF00352A00 /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CC16EB66AF00352A00 /* FileStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8660D16EB66AF00352A00 /* allpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865CE16EB66AF00352A00 /* allpass.cpp */; };
+		9FD8660E16EB66AF00352A00 /* allpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865CE16EB66AF00352A00 /* allpass.cpp */; };
+		9FD8660F16EB66AF00352A00 /* allpass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CF16EB66AF00352A00 /* allpass.h */; };
+		9FD8661016EB66AF00352A00 /* allpass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CF16EB66AF00352A00 /* allpass.h */; };
+		9FD8661116EB66AF00352A00 /* comb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D016EB66AF00352A00 /* comb.cpp */; };
+		9FD8661216EB66AF00352A00 /* comb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D016EB66AF00352A00 /* comb.cpp */; };
+		9FD8661316EB66AF00352A00 /* comb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D116EB66AF00352A00 /* comb.h */; };
+		9FD8661416EB66AF00352A00 /* comb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D116EB66AF00352A00 /* comb.h */; };
+		9FD8661516EB66AF00352A00 /* denormals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D216EB66AF00352A00 /* denormals.h */; };
+		9FD8661616EB66AF00352A00 /* denormals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D216EB66AF00352A00 /* denormals.h */; };
+		9FD8661716EB66AF00352A00 /* revmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D316EB66AF00352A00 /* revmodel.cpp */; };
+		9FD8661816EB66AF00352A00 /* revmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D316EB66AF00352A00 /* revmodel.cpp */; };
+		9FD8661916EB66AF00352A00 /* revmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D416EB66AF00352A00 /* revmodel.h */; };
+		9FD8661A16EB66AF00352A00 /* revmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D416EB66AF00352A00 /* revmodel.h */; };
+		9FD8661B16EB66AF00352A00 /* tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D516EB66AF00352A00 /* tuning.h */; };
+		9FD8661C16EB66AF00352A00 /* tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D516EB66AF00352A00 /* tuning.h */; };
+		9FD8661D16EB66AF00352A00 /* FreeverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D616EB66AF00352A00 /* FreeverbModel.cpp */; };
+		9FD8661E16EB66AF00352A00 /* FreeverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D616EB66AF00352A00 /* FreeverbModel.cpp */; };
+		9FD8661F16EB66AF00352A00 /* FreeverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D716EB66AF00352A00 /* FreeverbModel.h */; };
+		9FD8662016EB66AF00352A00 /* FreeverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D716EB66AF00352A00 /* FreeverbModel.h */; };
+		9FD8662116EB66AF00352A00 /* LA32Ramp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D816EB66AF00352A00 /* LA32Ramp.cpp */; };
+		9FD8662216EB66AF00352A00 /* LA32Ramp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D816EB66AF00352A00 /* LA32Ramp.cpp */; };
+		9FD8662316EB66AF00352A00 /* LA32Ramp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D916EB66AF00352A00 /* LA32Ramp.h */; };
+		9FD8662416EB66AF00352A00 /* LA32Ramp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D916EB66AF00352A00 /* LA32Ramp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8662516EB66AF00352A00 /* LA32WaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865DA16EB66AF00352A00 /* LA32WaveGenerator.cpp */; };
+		9FD8662616EB66AF00352A00 /* LA32WaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865DA16EB66AF00352A00 /* LA32WaveGenerator.cpp */; };
+		9FD8662716EB66AF00352A00 /* LA32WaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DB16EB66AF00352A00 /* LA32WaveGenerator.h */; };
+		9FD8662816EB66AF00352A00 /* LA32WaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DB16EB66AF00352A00 /* LA32WaveGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8662916EB66AF00352A00 /* LegacyWaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865DC16EB66AF00352A00 /* LegacyWaveGenerator.cpp */; };
+		9FD8662A16EB66AF00352A00 /* LegacyWaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865DC16EB66AF00352A00 /* LegacyWaveGenerator.cpp */; };
+		9FD8662B16EB66AF00352A00 /* LegacyWaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DD16EB66AF00352A00 /* LegacyWaveGenerator.h */; };
+		9FD8662C16EB66AF00352A00 /* LegacyWaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DD16EB66AF00352A00 /* LegacyWaveGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8662D16EB66AF00352A00 /* mmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DE16EB66AF00352A00 /* mmath.h */; };
+		9FD8662E16EB66AF00352A00 /* mmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DE16EB66AF00352A00 /* mmath.h */; };
+		9FD8662F16EB66AF00352A00 /* mt32emu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DF16EB66AF00352A00 /* mt32emu.h */; };
+		9FD8663016EB66AF00352A00 /* mt32emu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DF16EB66AF00352A00 /* mt32emu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8663116EB66AF00352A00 /* Part.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E016EB66AF00352A00 /* Part.cpp */; };
+		9FD8663216EB66AF00352A00 /* Part.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E016EB66AF00352A00 /* Part.cpp */; };
+		9FD8663316EB66AF00352A00 /* Part.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E116EB66AF00352A00 /* Part.h */; };
+		9FD8663416EB66AF00352A00 /* Part.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E116EB66AF00352A00 /* Part.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8663516EB66AF00352A00 /* Partial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E216EB66AF00352A00 /* Partial.cpp */; };
+		9FD8663616EB66AF00352A00 /* Partial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E216EB66AF00352A00 /* Partial.cpp */; };
+		9FD8663716EB66AF00352A00 /* Partial.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E316EB66AF00352A00 /* Partial.h */; };
+		9FD8663816EB66AF00352A00 /* Partial.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E316EB66AF00352A00 /* Partial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8663916EB66AF00352A00 /* PartialManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E416EB66AF00352A00 /* PartialManager.cpp */; };
+		9FD8663A16EB66AF00352A00 /* PartialManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E416EB66AF00352A00 /* PartialManager.cpp */; };
+		9FD8663B16EB66AF00352A00 /* PartialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E516EB66AF00352A00 /* PartialManager.h */; };
+		9FD8663C16EB66AF00352A00 /* PartialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E516EB66AF00352A00 /* PartialManager.h */; };
+		9FD8663D16EB66AF00352A00 /* Poly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E616EB66AF00352A00 /* Poly.cpp */; };
+		9FD8663E16EB66AF00352A00 /* Poly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E616EB66AF00352A00 /* Poly.cpp */; };
+		9FD8663F16EB66AF00352A00 /* Poly.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E716EB66AF00352A00 /* Poly.h */; };
+		9FD8664016EB66AF00352A00 /* Poly.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E716EB66AF00352A00 /* Poly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8664116EB66AF00352A00 /* ROMInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E816EB66AF00352A00 /* ROMInfo.cpp */; };
+		9FD8664216EB66AF00352A00 /* ROMInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865E816EB66AF00352A00 /* ROMInfo.cpp */; };
+		9FD8664316EB66AF00352A00 /* ROMInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E916EB66AF00352A00 /* ROMInfo.h */; };
+		9FD8664416EB66AF00352A00 /* ROMInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865E916EB66AF00352A00 /* ROMInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8664516EB66AF00352A00 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FD865EB16EB66AF00352A00 /* license.txt */; };
+		9FD8664616EB66AF00352A00 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865EC16EB66AF00352A00 /* sha1.cpp */; };
+		9FD8664716EB66AF00352A00 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865EC16EB66AF00352A00 /* sha1.cpp */; };
+		9FD8664816EB66AF00352A00 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865ED16EB66AF00352A00 /* sha1.h */; };
+		9FD8664916EB66AF00352A00 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865ED16EB66AF00352A00 /* sha1.h */; };
+		9FD8664A16EB66AF00352A00 /* Structures.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865EE16EB66AF00352A00 /* Structures.h */; };
+		9FD8664B16EB66AF00352A00 /* Structures.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865EE16EB66AF00352A00 /* Structures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8664C16EB66AF00352A00 /* Synth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865EF16EB66AF00352A00 /* Synth.cpp */; };
+		9FD8664D16EB66AF00352A00 /* Synth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865EF16EB66AF00352A00 /* Synth.cpp */; };
+		9FD8664E16EB66AF00352A00 /* Synth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F016EB66AF00352A00 /* Synth.h */; };
+		9FD8664F16EB66AF00352A00 /* Synth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F016EB66AF00352A00 /* Synth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8665016EB66AF00352A00 /* Tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865F116EB66AF00352A00 /* Tables.cpp */; };
+		9FD8665116EB66AF00352A00 /* Tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865F116EB66AF00352A00 /* Tables.cpp */; };
+		9FD8665216EB66AF00352A00 /* Tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F216EB66AF00352A00 /* Tables.h */; };
+		9FD8665316EB66AF00352A00 /* Tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F216EB66AF00352A00 /* Tables.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8665416EB66AF00352A00 /* TVA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865F316EB66AF00352A00 /* TVA.cpp */; };
+		9FD8665516EB66AF00352A00 /* TVA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865F316EB66AF00352A00 /* TVA.cpp */; };
+		9FD8665616EB66AF00352A00 /* TVA.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F416EB66AF00352A00 /* TVA.h */; };
+		9FD8665716EB66AF00352A00 /* TVA.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F416EB66AF00352A00 /* TVA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8665816EB66AF00352A00 /* TVF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865F516EB66AF00352A00 /* TVF.cpp */; };
+		9FD8665916EB66AF00352A00 /* TVF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865F516EB66AF00352A00 /* TVF.cpp */; };
+		9FD8665A16EB66AF00352A00 /* TVF.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F616EB66AF00352A00 /* TVF.h */; };
+		9FD8665B16EB66AF00352A00 /* TVF.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F616EB66AF00352A00 /* TVF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8665C16EB66AF00352A00 /* TVP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865F716EB66AF00352A00 /* TVP.cpp */; };
+		9FD8665D16EB66AF00352A00 /* TVP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865F716EB66AF00352A00 /* TVP.cpp */; };
+		9FD8665E16EB66AF00352A00 /* TVP.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F816EB66AF00352A00 /* TVP.h */; };
+		9FD8665F16EB66AF00352A00 /* TVP.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865F816EB66AF00352A00 /* TVP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F41EE22142B585B0029CA47 /* MT32Emu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MT32Emu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F41EE23142B585B0029CA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F8B8784142B542B0077B6F2 /* AReverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AReverbModel.cpp; sourceTree = "<group>"; };
-		9F8B8785142B542B0077B6F2 /* AReverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AReverbModel.h; sourceTree = "<group>"; };
-		9F8B8786142B542B0077B6F2 /* DelayReverb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DelayReverb.cpp; sourceTree = "<group>"; };
-		9F8B8787142B542B0077B6F2 /* DelayReverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayReverb.h; sourceTree = "<group>"; };
-		9F8B8788142B542B0077B6F2 /* ExternalInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExternalInterface.cpp; sourceTree = "<group>"; };
-		9F8B8789142B542B0077B6F2 /* ExternalInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalInterface.h; sourceTree = "<group>"; };
-		9F8B878A142B542B0077B6F2 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
-		9F8B878B142B542B0077B6F2 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
-		9F8B878C142B542B0077B6F2 /* FileStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileStream.cpp; sourceTree = "<group>"; };
-		9F8B878D142B542B0077B6F2 /* FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileStream.h; sourceTree = "<group>"; };
-		9F8B878F142B542B0077B6F2 /* allpass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = allpass.cpp; sourceTree = "<group>"; };
-		9F8B8790142B542B0077B6F2 /* allpass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allpass.h; sourceTree = "<group>"; };
-		9F8B8791142B542B0077B6F2 /* comb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = comb.cpp; sourceTree = "<group>"; };
-		9F8B8792142B542B0077B6F2 /* comb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comb.h; sourceTree = "<group>"; };
-		9F8B8793142B542B0077B6F2 /* denormals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = denormals.h; sourceTree = "<group>"; };
-		9F8B8794142B542B0077B6F2 /* revmodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = revmodel.cpp; sourceTree = "<group>"; };
-		9F8B8795142B542B0077B6F2 /* revmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revmodel.h; sourceTree = "<group>"; };
-		9F8B8796142B542B0077B6F2 /* tuning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tuning.h; sourceTree = "<group>"; };
-		9F8B8797142B542B0077B6F2 /* FreeverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FreeverbModel.cpp; sourceTree = "<group>"; };
-		9F8B8798142B542B0077B6F2 /* FreeverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeverbModel.h; sourceTree = "<group>"; };
-		9F8B8799142B542B0077B6F2 /* LA32Ramp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LA32Ramp.cpp; sourceTree = "<group>"; };
-		9F8B879A142B542B0077B6F2 /* LA32Ramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LA32Ramp.h; sourceTree = "<group>"; };
-		9F8B879B142B542B0077B6F2 /* mmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmath.h; sourceTree = "<group>"; };
-		9F8B879C142B542B0077B6F2 /* mt32emu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mt32emu.h; sourceTree = "<group>"; };
-		9F8B879D142B542B0077B6F2 /* Part.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Part.cpp; sourceTree = "<group>"; };
-		9F8B879E142B542B0077B6F2 /* Part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part.h; sourceTree = "<group>"; };
-		9F8B879F142B542B0077B6F2 /* Partial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Partial.cpp; sourceTree = "<group>"; };
-		9F8B87A0142B542B0077B6F2 /* Partial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Partial.h; sourceTree = "<group>"; };
-		9F8B87A1142B542B0077B6F2 /* PartialManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PartialManager.cpp; sourceTree = "<group>"; };
-		9F8B87A2142B542B0077B6F2 /* PartialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartialManager.h; sourceTree = "<group>"; };
-		9F8B87A3142B542B0077B6F2 /* Poly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Poly.cpp; sourceTree = "<group>"; };
-		9F8B87A4142B542B0077B6F2 /* Poly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poly.h; sourceTree = "<group>"; };
-		9F8B87A5142B542B0077B6F2 /* ROMInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ROMInfo.cpp; sourceTree = "<group>"; };
-		9F8B87A6142B542B0077B6F2 /* ROMInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROMInfo.h; sourceTree = "<group>"; };
-		9F8B87A9142B542B0077B6F2 /* sha1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
-		9F8B87AA142B542B0077B6F2 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
-		9F8B87AB142B542B0077B6F2 /* Structures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structures.h; sourceTree = "<group>"; };
-		9F8B87AC142B542B0077B6F2 /* Synth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Synth.cpp; sourceTree = "<group>"; };
-		9F8B87AD142B542B0077B6F2 /* Synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Synth.h; sourceTree = "<group>"; };
-		9F8B87AE142B542B0077B6F2 /* Tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tables.cpp; sourceTree = "<group>"; };
-		9F8B87AF142B542B0077B6F2 /* Tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tables.h; sourceTree = "<group>"; };
-		9F8B87B0142B542B0077B6F2 /* TVA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVA.cpp; sourceTree = "<group>"; };
-		9F8B87B1142B542B0077B6F2 /* TVA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVA.h; sourceTree = "<group>"; };
-		9F8B87B2142B542B0077B6F2 /* TVF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVF.cpp; sourceTree = "<group>"; };
-		9F8B87B3142B542B0077B6F2 /* TVF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVF.h; sourceTree = "<group>"; };
-		9F8B87B4142B542B0077B6F2 /* TVP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVP.cpp; sourceTree = "<group>"; };
-		9F8B87B5142B542B0077B6F2 /* TVP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVP.h; sourceTree = "<group>"; };
 		9F8B8B0A142B57830077B6F2 /* libmt32emu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmt32emu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD865C316EB66AF00352A00 /* AReverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AReverbModel.cpp; sourceTree = "<group>"; };
+		9FD865C416EB66AF00352A00 /* AReverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AReverbModel.h; sourceTree = "<group>"; };
+		9FD865C516EB66AF00352A00 /* BReverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BReverbModel.cpp; sourceTree = "<group>"; };
+		9FD865C616EB66AF00352A00 /* BReverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BReverbModel.h; sourceTree = "<group>"; };
+		9FD865C716EB66AF00352A00 /* DelayReverb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DelayReverb.cpp; sourceTree = "<group>"; };
+		9FD865C816EB66AF00352A00 /* DelayReverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayReverb.h; sourceTree = "<group>"; };
+		9FD865C916EB66AF00352A00 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		9FD865CA16EB66AF00352A00 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		9FD865CB16EB66AF00352A00 /* FileStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileStream.cpp; sourceTree = "<group>"; };
+		9FD865CC16EB66AF00352A00 /* FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileStream.h; sourceTree = "<group>"; };
+		9FD865CE16EB66AF00352A00 /* allpass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = allpass.cpp; sourceTree = "<group>"; };
+		9FD865CF16EB66AF00352A00 /* allpass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allpass.h; sourceTree = "<group>"; };
+		9FD865D016EB66AF00352A00 /* comb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = comb.cpp; sourceTree = "<group>"; };
+		9FD865D116EB66AF00352A00 /* comb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comb.h; sourceTree = "<group>"; };
+		9FD865D216EB66AF00352A00 /* denormals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = denormals.h; sourceTree = "<group>"; };
+		9FD865D316EB66AF00352A00 /* revmodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = revmodel.cpp; sourceTree = "<group>"; };
+		9FD865D416EB66AF00352A00 /* revmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revmodel.h; sourceTree = "<group>"; };
+		9FD865D516EB66AF00352A00 /* tuning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tuning.h; sourceTree = "<group>"; };
+		9FD865D616EB66AF00352A00 /* FreeverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FreeverbModel.cpp; sourceTree = "<group>"; };
+		9FD865D716EB66AF00352A00 /* FreeverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeverbModel.h; sourceTree = "<group>"; };
+		9FD865D816EB66AF00352A00 /* LA32Ramp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LA32Ramp.cpp; sourceTree = "<group>"; };
+		9FD865D916EB66AF00352A00 /* LA32Ramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LA32Ramp.h; sourceTree = "<group>"; };
+		9FD865DA16EB66AF00352A00 /* LA32WaveGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LA32WaveGenerator.cpp; sourceTree = "<group>"; };
+		9FD865DB16EB66AF00352A00 /* LA32WaveGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LA32WaveGenerator.h; sourceTree = "<group>"; };
+		9FD865DC16EB66AF00352A00 /* LegacyWaveGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LegacyWaveGenerator.cpp; sourceTree = "<group>"; };
+		9FD865DD16EB66AF00352A00 /* LegacyWaveGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyWaveGenerator.h; sourceTree = "<group>"; };
+		9FD865DE16EB66AF00352A00 /* mmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmath.h; sourceTree = "<group>"; };
+		9FD865DF16EB66AF00352A00 /* mt32emu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mt32emu.h; sourceTree = "<group>"; };
+		9FD865E016EB66AF00352A00 /* Part.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Part.cpp; sourceTree = "<group>"; };
+		9FD865E116EB66AF00352A00 /* Part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part.h; sourceTree = "<group>"; };
+		9FD865E216EB66AF00352A00 /* Partial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Partial.cpp; sourceTree = "<group>"; };
+		9FD865E316EB66AF00352A00 /* Partial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Partial.h; sourceTree = "<group>"; };
+		9FD865E416EB66AF00352A00 /* PartialManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PartialManager.cpp; sourceTree = "<group>"; };
+		9FD865E516EB66AF00352A00 /* PartialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartialManager.h; sourceTree = "<group>"; };
+		9FD865E616EB66AF00352A00 /* Poly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Poly.cpp; sourceTree = "<group>"; };
+		9FD865E716EB66AF00352A00 /* Poly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poly.h; sourceTree = "<group>"; };
+		9FD865E816EB66AF00352A00 /* ROMInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ROMInfo.cpp; sourceTree = "<group>"; };
+		9FD865E916EB66AF00352A00 /* ROMInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROMInfo.h; sourceTree = "<group>"; };
+		9FD865EB16EB66AF00352A00 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		9FD865EC16EB66AF00352A00 /* sha1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
+		9FD865ED16EB66AF00352A00 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		9FD865EE16EB66AF00352A00 /* Structures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structures.h; sourceTree = "<group>"; };
+		9FD865EF16EB66AF00352A00 /* Synth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Synth.cpp; sourceTree = "<group>"; };
+		9FD865F016EB66AF00352A00 /* Synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Synth.h; sourceTree = "<group>"; };
+		9FD865F116EB66AF00352A00 /* Tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tables.cpp; sourceTree = "<group>"; };
+		9FD865F216EB66AF00352A00 /* Tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tables.h; sourceTree = "<group>"; };
+		9FD865F316EB66AF00352A00 /* TVA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVA.cpp; sourceTree = "<group>"; };
+		9FD865F416EB66AF00352A00 /* TVA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVA.h; sourceTree = "<group>"; };
+		9FD865F516EB66AF00352A00 /* TVF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVF.cpp; sourceTree = "<group>"; };
+		9FD865F616EB66AF00352A00 /* TVF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVF.h; sourceTree = "<group>"; };
+		9FD865F716EB66AF00352A00 /* TVP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TVP.cpp; sourceTree = "<group>"; };
+		9FD865F816EB66AF00352A00 /* TVP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVP.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,77 +210,82 @@
 		9F8B877C142B542B0077B6F2 /* mt32emu */ = {
 			isa = PBXGroup;
 			children = (
-				9F8B8783142B542B0077B6F2 /* src */,
+				9FD865C216EB66AF00352A00 /* src */,
 			);
 			path = mt32emu;
 			sourceTree = "<group>";
 		};
-		9F8B8783142B542B0077B6F2 /* src */ = {
+		9FD865C216EB66AF00352A00 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				9F8B8784142B542B0077B6F2 /* AReverbModel.cpp */,
-				9F8B8785142B542B0077B6F2 /* AReverbModel.h */,
-				9F8B8786142B542B0077B6F2 /* DelayReverb.cpp */,
-				9F8B8787142B542B0077B6F2 /* DelayReverb.h */,
-				9F8B8788142B542B0077B6F2 /* ExternalInterface.cpp */,
-				9F8B8789142B542B0077B6F2 /* ExternalInterface.h */,
-				9F8B878A142B542B0077B6F2 /* File.cpp */,
-				9F8B878B142B542B0077B6F2 /* File.h */,
-				9F8B878C142B542B0077B6F2 /* FileStream.cpp */,
-				9F8B878D142B542B0077B6F2 /* FileStream.h */,
-				9F8B878E142B542B0077B6F2 /* freeverb */,
-				9F8B8797142B542B0077B6F2 /* FreeverbModel.cpp */,
-				9F8B8798142B542B0077B6F2 /* FreeverbModel.h */,
-				9F8B8799142B542B0077B6F2 /* LA32Ramp.cpp */,
-				9F8B879A142B542B0077B6F2 /* LA32Ramp.h */,
-				9F8B879B142B542B0077B6F2 /* mmath.h */,
-				9F8B879C142B542B0077B6F2 /* mt32emu.h */,
-				9F8B879D142B542B0077B6F2 /* Part.cpp */,
-				9F8B879E142B542B0077B6F2 /* Part.h */,
-				9F8B879F142B542B0077B6F2 /* Partial.cpp */,
-				9F8B87A0142B542B0077B6F2 /* Partial.h */,
-				9F8B87A1142B542B0077B6F2 /* PartialManager.cpp */,
-				9F8B87A2142B542B0077B6F2 /* PartialManager.h */,
-				9F8B87A3142B542B0077B6F2 /* Poly.cpp */,
-				9F8B87A4142B542B0077B6F2 /* Poly.h */,
-				9F8B87A5142B542B0077B6F2 /* ROMInfo.cpp */,
-				9F8B87A6142B542B0077B6F2 /* ROMInfo.h */,
-				9F8B87A7142B542B0077B6F2 /* sha1 */,
-				9F8B87AB142B542B0077B6F2 /* Structures.h */,
-				9F8B87AC142B542B0077B6F2 /* Synth.cpp */,
-				9F8B87AD142B542B0077B6F2 /* Synth.h */,
-				9F8B87AE142B542B0077B6F2 /* Tables.cpp */,
-				9F8B87AF142B542B0077B6F2 /* Tables.h */,
-				9F8B87B0142B542B0077B6F2 /* TVA.cpp */,
-				9F8B87B1142B542B0077B6F2 /* TVA.h */,
-				9F8B87B2142B542B0077B6F2 /* TVF.cpp */,
-				9F8B87B3142B542B0077B6F2 /* TVF.h */,
-				9F8B87B4142B542B0077B6F2 /* TVP.cpp */,
-				9F8B87B5142B542B0077B6F2 /* TVP.h */,
+				9FD865C316EB66AF00352A00 /* AReverbModel.cpp */,
+				9FD865C416EB66AF00352A00 /* AReverbModel.h */,
+				9FD865C516EB66AF00352A00 /* BReverbModel.cpp */,
+				9FD865C616EB66AF00352A00 /* BReverbModel.h */,
+				9FD865C716EB66AF00352A00 /* DelayReverb.cpp */,
+				9FD865C816EB66AF00352A00 /* DelayReverb.h */,
+				9FD865C916EB66AF00352A00 /* File.cpp */,
+				9FD865CA16EB66AF00352A00 /* File.h */,
+				9FD865CB16EB66AF00352A00 /* FileStream.cpp */,
+				9FD865CC16EB66AF00352A00 /* FileStream.h */,
+				9FD865CD16EB66AF00352A00 /* freeverb */,
+				9FD865D616EB66AF00352A00 /* FreeverbModel.cpp */,
+				9FD865D716EB66AF00352A00 /* FreeverbModel.h */,
+				9FD865D816EB66AF00352A00 /* LA32Ramp.cpp */,
+				9FD865D916EB66AF00352A00 /* LA32Ramp.h */,
+				9FD865DA16EB66AF00352A00 /* LA32WaveGenerator.cpp */,
+				9FD865DB16EB66AF00352A00 /* LA32WaveGenerator.h */,
+				9FD865DC16EB66AF00352A00 /* LegacyWaveGenerator.cpp */,
+				9FD865DD16EB66AF00352A00 /* LegacyWaveGenerator.h */,
+				9FD865DE16EB66AF00352A00 /* mmath.h */,
+				9FD865DF16EB66AF00352A00 /* mt32emu.h */,
+				9FD865E016EB66AF00352A00 /* Part.cpp */,
+				9FD865E116EB66AF00352A00 /* Part.h */,
+				9FD865E216EB66AF00352A00 /* Partial.cpp */,
+				9FD865E316EB66AF00352A00 /* Partial.h */,
+				9FD865E416EB66AF00352A00 /* PartialManager.cpp */,
+				9FD865E516EB66AF00352A00 /* PartialManager.h */,
+				9FD865E616EB66AF00352A00 /* Poly.cpp */,
+				9FD865E716EB66AF00352A00 /* Poly.h */,
+				9FD865E816EB66AF00352A00 /* ROMInfo.cpp */,
+				9FD865E916EB66AF00352A00 /* ROMInfo.h */,
+				9FD865EA16EB66AF00352A00 /* sha1 */,
+				9FD865EE16EB66AF00352A00 /* Structures.h */,
+				9FD865EF16EB66AF00352A00 /* Synth.cpp */,
+				9FD865F016EB66AF00352A00 /* Synth.h */,
+				9FD865F116EB66AF00352A00 /* Tables.cpp */,
+				9FD865F216EB66AF00352A00 /* Tables.h */,
+				9FD865F316EB66AF00352A00 /* TVA.cpp */,
+				9FD865F416EB66AF00352A00 /* TVA.h */,
+				9FD865F516EB66AF00352A00 /* TVF.cpp */,
+				9FD865F616EB66AF00352A00 /* TVF.h */,
+				9FD865F716EB66AF00352A00 /* TVP.cpp */,
+				9FD865F816EB66AF00352A00 /* TVP.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
 		};
-		9F8B878E142B542B0077B6F2 /* freeverb */ = {
+		9FD865CD16EB66AF00352A00 /* freeverb */ = {
 			isa = PBXGroup;
 			children = (
-				9F8B878F142B542B0077B6F2 /* allpass.cpp */,
-				9F8B8790142B542B0077B6F2 /* allpass.h */,
-				9F8B8791142B542B0077B6F2 /* comb.cpp */,
-				9F8B8792142B542B0077B6F2 /* comb.h */,
-				9F8B8793142B542B0077B6F2 /* denormals.h */,
-				9F8B8794142B542B0077B6F2 /* revmodel.cpp */,
-				9F8B8795142B542B0077B6F2 /* revmodel.h */,
-				9F8B8796142B542B0077B6F2 /* tuning.h */,
+				9FD865CE16EB66AF00352A00 /* allpass.cpp */,
+				9FD865CF16EB66AF00352A00 /* allpass.h */,
+				9FD865D016EB66AF00352A00 /* comb.cpp */,
+				9FD865D116EB66AF00352A00 /* comb.h */,
+				9FD865D216EB66AF00352A00 /* denormals.h */,
+				9FD865D316EB66AF00352A00 /* revmodel.cpp */,
+				9FD865D416EB66AF00352A00 /* revmodel.h */,
+				9FD865D516EB66AF00352A00 /* tuning.h */,
 			);
 			path = freeverb;
 			sourceTree = "<group>";
 		};
-		9F8B87A7142B542B0077B6F2 /* sha1 */ = {
+		9FD865EA16EB66AF00352A00 /* sha1 */ = {
 			isa = PBXGroup;
 			children = (
-				9F8B87A9142B542B0077B6F2 /* sha1.cpp */,
-				9F8B87AA142B542B0077B6F2 /* sha1.h */,
+				9FD865EB16EB66AF00352A00 /* license.txt */,
+				9FD865EC16EB66AF00352A00 /* sha1.cpp */,
+				9FD865ED16EB66AF00352A00 /* sha1.h */,
 			);
 			path = sha1;
 			sourceTree = "<group>";
@@ -231,32 +297,34 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F41EE28142B586A0029CA47 /* AReverbModel.h in Headers */,
-				9F41EE2A142B586A0029CA47 /* DelayReverb.h in Headers */,
-				9F41EE2C142B586A0029CA47 /* ExternalInterface.h in Headers */,
-				9F41EE2E142B586A0029CA47 /* File.h in Headers */,
-				9F41EE30142B586A0029CA47 /* FileStream.h in Headers */,
-				9F41EE32142B586A0029CA47 /* allpass.h in Headers */,
-				9F41EE34142B586A0029CA47 /* comb.h in Headers */,
-				9F41EE35142B586A0029CA47 /* denormals.h in Headers */,
-				9F41EE37142B586A0029CA47 /* revmodel.h in Headers */,
-				9F41EE38142B586A0029CA47 /* tuning.h in Headers */,
-				9F41EE3A142B586A0029CA47 /* FreeverbModel.h in Headers */,
-				9F41EE3C142B586A0029CA47 /* LA32Ramp.h in Headers */,
-				9F41EE3D142B586A0029CA47 /* mmath.h in Headers */,
-				9F41EE3E142B586A0029CA47 /* mt32emu.h in Headers */,
-				9F41EE40142B586A0029CA47 /* Part.h in Headers */,
-				9F41EE42142B586A0029CA47 /* Partial.h in Headers */,
-				9F41EE44142B586A0029CA47 /* PartialManager.h in Headers */,
-				9F41EE46142B586A0029CA47 /* Poly.h in Headers */,
-				9F41EE48142B586A0029CA47 /* ROMInfo.h in Headers */,
-				9F41EE4A142B586A0029CA47 /* sha1.h in Headers */,
-				9F41EE4B142B586A0029CA47 /* Structures.h in Headers */,
-				9F41EE4D142B586A0029CA47 /* Synth.h in Headers */,
-				9F41EE4F142B586A0029CA47 /* Tables.h in Headers */,
-				9F41EE51142B586A0029CA47 /* TVA.h in Headers */,
-				9F41EE53142B586A0029CA47 /* TVF.h in Headers */,
-				9F41EE55142B586A0029CA47 /* TVP.h in Headers */,
+				9FD8663016EB66AF00352A00 /* mt32emu.h in Headers */,
+				9FD8664B16EB66AF00352A00 /* Structures.h in Headers */,
+				9FD8660816EB66AF00352A00 /* File.h in Headers */,
+				9FD8660C16EB66AF00352A00 /* FileStream.h in Headers */,
+				9FD8665316EB66AF00352A00 /* Tables.h in Headers */,
+				9FD8664016EB66AF00352A00 /* Poly.h in Headers */,
+				9FD8662416EB66AF00352A00 /* LA32Ramp.h in Headers */,
+				9FD8662816EB66AF00352A00 /* LA32WaveGenerator.h in Headers */,
+				9FD8662C16EB66AF00352A00 /* LegacyWaveGenerator.h in Headers */,
+				9FD8665716EB66AF00352A00 /* TVA.h in Headers */,
+				9FD8665B16EB66AF00352A00 /* TVF.h in Headers */,
+				9FD8665F16EB66AF00352A00 /* TVP.h in Headers */,
+				9FD8663816EB66AF00352A00 /* Partial.h in Headers */,
+				9FD8663416EB66AF00352A00 /* Part.h in Headers */,
+				9FD8664416EB66AF00352A00 /* ROMInfo.h in Headers */,
+				9FD8664F16EB66AF00352A00 /* Synth.h in Headers */,
+				9FD865FC16EB66AF00352A00 /* AReverbModel.h in Headers */,
+				9FD8660016EB66AF00352A00 /* BReverbModel.h in Headers */,
+				9FD8660416EB66AF00352A00 /* DelayReverb.h in Headers */,
+				9FD8661016EB66AF00352A00 /* allpass.h in Headers */,
+				9FD8661416EB66AF00352A00 /* comb.h in Headers */,
+				9FD8661616EB66AF00352A00 /* denormals.h in Headers */,
+				9FD8661A16EB66AF00352A00 /* revmodel.h in Headers */,
+				9FD8661C16EB66AF00352A00 /* tuning.h in Headers */,
+				9FD8662016EB66AF00352A00 /* FreeverbModel.h in Headers */,
+				9FD8662E16EB66AF00352A00 /* mmath.h in Headers */,
+				9FD8663C16EB66AF00352A00 /* PartialManager.h in Headers */,
+				9FD8664916EB66AF00352A00 /* sha1.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +332,34 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD865FB16EB66AF00352A00 /* AReverbModel.h in Headers */,
+				9FD865FF16EB66AF00352A00 /* BReverbModel.h in Headers */,
+				9FD8660316EB66AF00352A00 /* DelayReverb.h in Headers */,
+				9FD8660716EB66AF00352A00 /* File.h in Headers */,
+				9FD8660B16EB66AF00352A00 /* FileStream.h in Headers */,
+				9FD8660F16EB66AF00352A00 /* allpass.h in Headers */,
+				9FD8661316EB66AF00352A00 /* comb.h in Headers */,
+				9FD8661516EB66AF00352A00 /* denormals.h in Headers */,
+				9FD8661916EB66AF00352A00 /* revmodel.h in Headers */,
+				9FD8661B16EB66AF00352A00 /* tuning.h in Headers */,
+				9FD8661F16EB66AF00352A00 /* FreeverbModel.h in Headers */,
+				9FD8662316EB66AF00352A00 /* LA32Ramp.h in Headers */,
+				9FD8662716EB66AF00352A00 /* LA32WaveGenerator.h in Headers */,
+				9FD8662B16EB66AF00352A00 /* LegacyWaveGenerator.h in Headers */,
+				9FD8662D16EB66AF00352A00 /* mmath.h in Headers */,
+				9FD8662F16EB66AF00352A00 /* mt32emu.h in Headers */,
+				9FD8663316EB66AF00352A00 /* Part.h in Headers */,
+				9FD8663716EB66AF00352A00 /* Partial.h in Headers */,
+				9FD8663B16EB66AF00352A00 /* PartialManager.h in Headers */,
+				9FD8663F16EB66AF00352A00 /* Poly.h in Headers */,
+				9FD8664316EB66AF00352A00 /* ROMInfo.h in Headers */,
+				9FD8664816EB66AF00352A00 /* sha1.h in Headers */,
+				9FD8664A16EB66AF00352A00 /* Structures.h in Headers */,
+				9FD8664E16EB66AF00352A00 /* Synth.h in Headers */,
+				9FD8665216EB66AF00352A00 /* Tables.h in Headers */,
+				9FD8665616EB66AF00352A00 /* TVA.h in Headers */,
+				9FD8665A16EB66AF00352A00 /* TVF.h in Headers */,
+				9FD8665E16EB66AF00352A00 /* TVP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +406,7 @@
 		9F8B8734142B53030077B6F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = 40watt;
 			};
 			buildConfigurationList = 9F8B8737142B53030077B6F2 /* Build configuration list for PBXProject "Boxer-MT32Emu" */;
@@ -336,6 +432,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD8664516EB66AF00352A00 /* license.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,27 +443,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F41EE27142B586A0029CA47 /* AReverbModel.cpp in Sources */,
-				9F41EE29142B586A0029CA47 /* DelayReverb.cpp in Sources */,
-				9F41EE2B142B586A0029CA47 /* ExternalInterface.cpp in Sources */,
-				9F41EE2D142B586A0029CA47 /* File.cpp in Sources */,
-				9F41EE2F142B586A0029CA47 /* FileStream.cpp in Sources */,
-				9F41EE31142B586A0029CA47 /* allpass.cpp in Sources */,
-				9F41EE33142B586A0029CA47 /* comb.cpp in Sources */,
-				9F41EE36142B586A0029CA47 /* revmodel.cpp in Sources */,
-				9F41EE39142B586A0029CA47 /* FreeverbModel.cpp in Sources */,
-				9F41EE3B142B586A0029CA47 /* LA32Ramp.cpp in Sources */,
-				9F41EE3F142B586A0029CA47 /* Part.cpp in Sources */,
-				9F41EE41142B586A0029CA47 /* Partial.cpp in Sources */,
-				9F41EE43142B586A0029CA47 /* PartialManager.cpp in Sources */,
-				9F41EE45142B586A0029CA47 /* Poly.cpp in Sources */,
-				9F41EE47142B586A0029CA47 /* ROMInfo.cpp in Sources */,
-				9F41EE49142B586A0029CA47 /* sha1.cpp in Sources */,
-				9F41EE4C142B586A0029CA47 /* Synth.cpp in Sources */,
-				9F41EE4E142B586A0029CA47 /* Tables.cpp in Sources */,
-				9F41EE50142B586A0029CA47 /* TVA.cpp in Sources */,
-				9F41EE52142B586A0029CA47 /* TVF.cpp in Sources */,
-				9F41EE54142B586A0029CA47 /* TVP.cpp in Sources */,
+				9FD865FA16EB66AF00352A00 /* AReverbModel.cpp in Sources */,
+				9FD865FE16EB66AF00352A00 /* BReverbModel.cpp in Sources */,
+				9FD8660216EB66AF00352A00 /* DelayReverb.cpp in Sources */,
+				9FD8660616EB66AF00352A00 /* File.cpp in Sources */,
+				9FD8660A16EB66AF00352A00 /* FileStream.cpp in Sources */,
+				9FD8660E16EB66AF00352A00 /* allpass.cpp in Sources */,
+				9FD8661216EB66AF00352A00 /* comb.cpp in Sources */,
+				9FD8661816EB66AF00352A00 /* revmodel.cpp in Sources */,
+				9FD8661E16EB66AF00352A00 /* FreeverbModel.cpp in Sources */,
+				9FD8662216EB66AF00352A00 /* LA32Ramp.cpp in Sources */,
+				9FD8662616EB66AF00352A00 /* LA32WaveGenerator.cpp in Sources */,
+				9FD8662A16EB66AF00352A00 /* LegacyWaveGenerator.cpp in Sources */,
+				9FD8663216EB66AF00352A00 /* Part.cpp in Sources */,
+				9FD8663616EB66AF00352A00 /* Partial.cpp in Sources */,
+				9FD8663A16EB66AF00352A00 /* PartialManager.cpp in Sources */,
+				9FD8663E16EB66AF00352A00 /* Poly.cpp in Sources */,
+				9FD8664216EB66AF00352A00 /* ROMInfo.cpp in Sources */,
+				9FD8664716EB66AF00352A00 /* sha1.cpp in Sources */,
+				9FD8664D16EB66AF00352A00 /* Synth.cpp in Sources */,
+				9FD8665116EB66AF00352A00 /* Tables.cpp in Sources */,
+				9FD8665516EB66AF00352A00 /* TVA.cpp in Sources */,
+				9FD8665916EB66AF00352A00 /* TVF.cpp in Sources */,
+				9FD8665D16EB66AF00352A00 /* TVP.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +473,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD865F916EB66AF00352A00 /* AReverbModel.cpp in Sources */,
+				9FD865FD16EB66AF00352A00 /* BReverbModel.cpp in Sources */,
+				9FD8660116EB66AF00352A00 /* DelayReverb.cpp in Sources */,
+				9FD8660516EB66AF00352A00 /* File.cpp in Sources */,
+				9FD8660916EB66AF00352A00 /* FileStream.cpp in Sources */,
+				9FD8660D16EB66AF00352A00 /* allpass.cpp in Sources */,
+				9FD8661116EB66AF00352A00 /* comb.cpp in Sources */,
+				9FD8661716EB66AF00352A00 /* revmodel.cpp in Sources */,
+				9FD8661D16EB66AF00352A00 /* FreeverbModel.cpp in Sources */,
+				9FD8662116EB66AF00352A00 /* LA32Ramp.cpp in Sources */,
+				9FD8662516EB66AF00352A00 /* LA32WaveGenerator.cpp in Sources */,
+				9FD8662916EB66AF00352A00 /* LegacyWaveGenerator.cpp in Sources */,
+				9FD8663116EB66AF00352A00 /* Part.cpp in Sources */,
+				9FD8663516EB66AF00352A00 /* Partial.cpp in Sources */,
+				9FD8663916EB66AF00352A00 /* PartialManager.cpp in Sources */,
+				9FD8663D16EB66AF00352A00 /* Poly.cpp in Sources */,
+				9FD8664116EB66AF00352A00 /* ROMInfo.cpp in Sources */,
+				9FD8664616EB66AF00352A00 /* sha1.cpp in Sources */,
+				9FD8664C16EB66AF00352A00 /* Synth.cpp in Sources */,
+				9FD8665016EB66AF00352A00 /* Tables.cpp in Sources */,
+				9FD8665416EB66AF00352A00 /* TVA.cpp in Sources */,
+				9FD8665816EB66AF00352A00 /* TVF.cpp in Sources */,
+				9FD8665C16EB66AF00352A00 /* TVP.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +542,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
@@ -431,7 +552,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = MT32Emu;
 				ZERO_LINK = NO;
 			};
@@ -445,7 +565,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
@@ -456,7 +575,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = MT32Emu;
 			};
 			name = Debug;
@@ -470,7 +588,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
@@ -481,7 +598,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = MT32Emu;
 				ZERO_LINK = NO;
 			};
