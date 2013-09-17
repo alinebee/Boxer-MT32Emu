@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FD865F916EB66AF00352A00 /* AReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C316EB66AF00352A00 /* AReverbModel.cpp */; };
-		9FD865FA16EB66AF00352A00 /* AReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C316EB66AF00352A00 /* AReverbModel.cpp */; };
-		9FD865FB16EB66AF00352A00 /* AReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C416EB66AF00352A00 /* AReverbModel.h */; };
-		9FD865FC16EB66AF00352A00 /* AReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C416EB66AF00352A00 /* AReverbModel.h */; };
+		9FC3FAD317E8EF1700E61362 /* LA32FloatWaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3FAD117E8EF1600E61362 /* LA32FloatWaveGenerator.cpp */; };
+		9FC3FAD417E8EF1700E61362 /* LA32FloatWaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC3FAD217E8EF1600E61362 /* LA32FloatWaveGenerator.h */; };
 		9FD865FD16EB66AF00352A00 /* BReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C516EB66AF00352A00 /* BReverbModel.cpp */; };
 		9FD865FE16EB66AF00352A00 /* BReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C516EB66AF00352A00 /* BReverbModel.cpp */; };
 		9FD865FF16EB66AF00352A00 /* BReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C616EB66AF00352A00 /* BReverbModel.h */; };
 		9FD8660016EB66AF00352A00 /* BReverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C616EB66AF00352A00 /* BReverbModel.h */; };
-		9FD8660116EB66AF00352A00 /* DelayReverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C716EB66AF00352A00 /* DelayReverb.cpp */; };
-		9FD8660216EB66AF00352A00 /* DelayReverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C716EB66AF00352A00 /* DelayReverb.cpp */; };
-		9FD8660316EB66AF00352A00 /* DelayReverb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C816EB66AF00352A00 /* DelayReverb.h */; };
-		9FD8660416EB66AF00352A00 /* DelayReverb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865C816EB66AF00352A00 /* DelayReverb.h */; };
 		9FD8660516EB66AF00352A00 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C916EB66AF00352A00 /* File.cpp */; };
 		9FD8660616EB66AF00352A00 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C916EB66AF00352A00 /* File.cpp */; };
 		9FD8660716EB66AF00352A00 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CA16EB66AF00352A00 /* File.h */; };
@@ -27,26 +21,6 @@
 		9FD8660A16EB66AF00352A00 /* FileStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865CB16EB66AF00352A00 /* FileStream.cpp */; };
 		9FD8660B16EB66AF00352A00 /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CC16EB66AF00352A00 /* FileStream.h */; };
 		9FD8660C16EB66AF00352A00 /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CC16EB66AF00352A00 /* FileStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FD8660D16EB66AF00352A00 /* allpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865CE16EB66AF00352A00 /* allpass.cpp */; };
-		9FD8660E16EB66AF00352A00 /* allpass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865CE16EB66AF00352A00 /* allpass.cpp */; };
-		9FD8660F16EB66AF00352A00 /* allpass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CF16EB66AF00352A00 /* allpass.h */; };
-		9FD8661016EB66AF00352A00 /* allpass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865CF16EB66AF00352A00 /* allpass.h */; };
-		9FD8661116EB66AF00352A00 /* comb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D016EB66AF00352A00 /* comb.cpp */; };
-		9FD8661216EB66AF00352A00 /* comb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D016EB66AF00352A00 /* comb.cpp */; };
-		9FD8661316EB66AF00352A00 /* comb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D116EB66AF00352A00 /* comb.h */; };
-		9FD8661416EB66AF00352A00 /* comb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D116EB66AF00352A00 /* comb.h */; };
-		9FD8661516EB66AF00352A00 /* denormals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D216EB66AF00352A00 /* denormals.h */; };
-		9FD8661616EB66AF00352A00 /* denormals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D216EB66AF00352A00 /* denormals.h */; };
-		9FD8661716EB66AF00352A00 /* revmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D316EB66AF00352A00 /* revmodel.cpp */; };
-		9FD8661816EB66AF00352A00 /* revmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D316EB66AF00352A00 /* revmodel.cpp */; };
-		9FD8661916EB66AF00352A00 /* revmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D416EB66AF00352A00 /* revmodel.h */; };
-		9FD8661A16EB66AF00352A00 /* revmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D416EB66AF00352A00 /* revmodel.h */; };
-		9FD8661B16EB66AF00352A00 /* tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D516EB66AF00352A00 /* tuning.h */; };
-		9FD8661C16EB66AF00352A00 /* tuning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D516EB66AF00352A00 /* tuning.h */; };
-		9FD8661D16EB66AF00352A00 /* FreeverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D616EB66AF00352A00 /* FreeverbModel.cpp */; };
-		9FD8661E16EB66AF00352A00 /* FreeverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D616EB66AF00352A00 /* FreeverbModel.cpp */; };
-		9FD8661F16EB66AF00352A00 /* FreeverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D716EB66AF00352A00 /* FreeverbModel.h */; };
-		9FD8662016EB66AF00352A00 /* FreeverbModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D716EB66AF00352A00 /* FreeverbModel.h */; };
 		9FD8662116EB66AF00352A00 /* LA32Ramp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D816EB66AF00352A00 /* LA32Ramp.cpp */; };
 		9FD8662216EB66AF00352A00 /* LA32Ramp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865D816EB66AF00352A00 /* LA32Ramp.cpp */; };
 		9FD8662316EB66AF00352A00 /* LA32Ramp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865D916EB66AF00352A00 /* LA32Ramp.h */; };
@@ -55,10 +29,6 @@
 		9FD8662616EB66AF00352A00 /* LA32WaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865DA16EB66AF00352A00 /* LA32WaveGenerator.cpp */; };
 		9FD8662716EB66AF00352A00 /* LA32WaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DB16EB66AF00352A00 /* LA32WaveGenerator.h */; };
 		9FD8662816EB66AF00352A00 /* LA32WaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DB16EB66AF00352A00 /* LA32WaveGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FD8662916EB66AF00352A00 /* LegacyWaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865DC16EB66AF00352A00 /* LegacyWaveGenerator.cpp */; };
-		9FD8662A16EB66AF00352A00 /* LegacyWaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865DC16EB66AF00352A00 /* LegacyWaveGenerator.cpp */; };
-		9FD8662B16EB66AF00352A00 /* LegacyWaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DD16EB66AF00352A00 /* LegacyWaveGenerator.h */; };
-		9FD8662C16EB66AF00352A00 /* LegacyWaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DD16EB66AF00352A00 /* LegacyWaveGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FD8662D16EB66AF00352A00 /* mmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DE16EB66AF00352A00 /* mmath.h */; };
 		9FD8662E16EB66AF00352A00 /* mmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DE16EB66AF00352A00 /* mmath.h */; };
 		9FD8662F16EB66AF00352A00 /* mt32emu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD865DF16EB66AF00352A00 /* mt32emu.h */; };
@@ -116,32 +86,18 @@
 		9F41EE22142B585B0029CA47 /* MT32Emu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MT32Emu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F41EE23142B585B0029CA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F8B8B0A142B57830077B6F2 /* libmt32emu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmt32emu.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FD865C316EB66AF00352A00 /* AReverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AReverbModel.cpp; sourceTree = "<group>"; };
-		9FD865C416EB66AF00352A00 /* AReverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AReverbModel.h; sourceTree = "<group>"; };
+		9FC3FAD117E8EF1600E61362 /* LA32FloatWaveGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LA32FloatWaveGenerator.cpp; sourceTree = "<group>"; };
+		9FC3FAD217E8EF1600E61362 /* LA32FloatWaveGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LA32FloatWaveGenerator.h; sourceTree = "<group>"; };
 		9FD865C516EB66AF00352A00 /* BReverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BReverbModel.cpp; sourceTree = "<group>"; };
 		9FD865C616EB66AF00352A00 /* BReverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BReverbModel.h; sourceTree = "<group>"; };
-		9FD865C716EB66AF00352A00 /* DelayReverb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DelayReverb.cpp; sourceTree = "<group>"; };
-		9FD865C816EB66AF00352A00 /* DelayReverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayReverb.h; sourceTree = "<group>"; };
 		9FD865C916EB66AF00352A00 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
 		9FD865CA16EB66AF00352A00 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
 		9FD865CB16EB66AF00352A00 /* FileStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileStream.cpp; sourceTree = "<group>"; };
 		9FD865CC16EB66AF00352A00 /* FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileStream.h; sourceTree = "<group>"; };
-		9FD865CE16EB66AF00352A00 /* allpass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = allpass.cpp; sourceTree = "<group>"; };
-		9FD865CF16EB66AF00352A00 /* allpass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allpass.h; sourceTree = "<group>"; };
-		9FD865D016EB66AF00352A00 /* comb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = comb.cpp; sourceTree = "<group>"; };
-		9FD865D116EB66AF00352A00 /* comb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comb.h; sourceTree = "<group>"; };
-		9FD865D216EB66AF00352A00 /* denormals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = denormals.h; sourceTree = "<group>"; };
-		9FD865D316EB66AF00352A00 /* revmodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = revmodel.cpp; sourceTree = "<group>"; };
-		9FD865D416EB66AF00352A00 /* revmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revmodel.h; sourceTree = "<group>"; };
-		9FD865D516EB66AF00352A00 /* tuning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tuning.h; sourceTree = "<group>"; };
-		9FD865D616EB66AF00352A00 /* FreeverbModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FreeverbModel.cpp; sourceTree = "<group>"; };
-		9FD865D716EB66AF00352A00 /* FreeverbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeverbModel.h; sourceTree = "<group>"; };
 		9FD865D816EB66AF00352A00 /* LA32Ramp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LA32Ramp.cpp; sourceTree = "<group>"; };
 		9FD865D916EB66AF00352A00 /* LA32Ramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LA32Ramp.h; sourceTree = "<group>"; };
 		9FD865DA16EB66AF00352A00 /* LA32WaveGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LA32WaveGenerator.cpp; sourceTree = "<group>"; };
 		9FD865DB16EB66AF00352A00 /* LA32WaveGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LA32WaveGenerator.h; sourceTree = "<group>"; };
-		9FD865DC16EB66AF00352A00 /* LegacyWaveGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LegacyWaveGenerator.cpp; sourceTree = "<group>"; };
-		9FD865DD16EB66AF00352A00 /* LegacyWaveGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyWaveGenerator.h; sourceTree = "<group>"; };
 		9FD865DE16EB66AF00352A00 /* mmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmath.h; sourceTree = "<group>"; };
 		9FD865DF16EB66AF00352A00 /* mt32emu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mt32emu.h; sourceTree = "<group>"; };
 		9FD865E016EB66AF00352A00 /* Part.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Part.cpp; sourceTree = "<group>"; };
@@ -218,25 +174,18 @@
 		9FD865C216EB66AF00352A00 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				9FD865C316EB66AF00352A00 /* AReverbModel.cpp */,
-				9FD865C416EB66AF00352A00 /* AReverbModel.h */,
+				9FC3FAD217E8EF1600E61362 /* LA32FloatWaveGenerator.h */,
 				9FD865C516EB66AF00352A00 /* BReverbModel.cpp */,
 				9FD865C616EB66AF00352A00 /* BReverbModel.h */,
-				9FD865C716EB66AF00352A00 /* DelayReverb.cpp */,
-				9FD865C816EB66AF00352A00 /* DelayReverb.h */,
 				9FD865C916EB66AF00352A00 /* File.cpp */,
 				9FD865CA16EB66AF00352A00 /* File.h */,
 				9FD865CB16EB66AF00352A00 /* FileStream.cpp */,
 				9FD865CC16EB66AF00352A00 /* FileStream.h */,
-				9FD865CD16EB66AF00352A00 /* freeverb */,
-				9FD865D616EB66AF00352A00 /* FreeverbModel.cpp */,
-				9FD865D716EB66AF00352A00 /* FreeverbModel.h */,
 				9FD865D816EB66AF00352A00 /* LA32Ramp.cpp */,
 				9FD865D916EB66AF00352A00 /* LA32Ramp.h */,
 				9FD865DA16EB66AF00352A00 /* LA32WaveGenerator.cpp */,
 				9FD865DB16EB66AF00352A00 /* LA32WaveGenerator.h */,
-				9FD865DC16EB66AF00352A00 /* LegacyWaveGenerator.cpp */,
-				9FD865DD16EB66AF00352A00 /* LegacyWaveGenerator.h */,
+				9FC3FAD117E8EF1600E61362 /* LA32FloatWaveGenerator.cpp */,
 				9FD865DE16EB66AF00352A00 /* mmath.h */,
 				9FD865DF16EB66AF00352A00 /* mt32emu.h */,
 				9FD865E016EB66AF00352A00 /* Part.cpp */,
@@ -265,21 +214,6 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		9FD865CD16EB66AF00352A00 /* freeverb */ = {
-			isa = PBXGroup;
-			children = (
-				9FD865CE16EB66AF00352A00 /* allpass.cpp */,
-				9FD865CF16EB66AF00352A00 /* allpass.h */,
-				9FD865D016EB66AF00352A00 /* comb.cpp */,
-				9FD865D116EB66AF00352A00 /* comb.h */,
-				9FD865D216EB66AF00352A00 /* denormals.h */,
-				9FD865D316EB66AF00352A00 /* revmodel.cpp */,
-				9FD865D416EB66AF00352A00 /* revmodel.h */,
-				9FD865D516EB66AF00352A00 /* tuning.h */,
-			);
-			path = freeverb;
-			sourceTree = "<group>";
-		};
 		9FD865EA16EB66AF00352A00 /* sha1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,7 +239,6 @@
 				9FD8664016EB66AF00352A00 /* Poly.h in Headers */,
 				9FD8662416EB66AF00352A00 /* LA32Ramp.h in Headers */,
 				9FD8662816EB66AF00352A00 /* LA32WaveGenerator.h in Headers */,
-				9FD8662C16EB66AF00352A00 /* LegacyWaveGenerator.h in Headers */,
 				9FD8665716EB66AF00352A00 /* TVA.h in Headers */,
 				9FD8665B16EB66AF00352A00 /* TVF.h in Headers */,
 				9FD8665F16EB66AF00352A00 /* TVP.h in Headers */,
@@ -313,15 +246,7 @@
 				9FD8663416EB66AF00352A00 /* Part.h in Headers */,
 				9FD8664416EB66AF00352A00 /* ROMInfo.h in Headers */,
 				9FD8664F16EB66AF00352A00 /* Synth.h in Headers */,
-				9FD865FC16EB66AF00352A00 /* AReverbModel.h in Headers */,
 				9FD8660016EB66AF00352A00 /* BReverbModel.h in Headers */,
-				9FD8660416EB66AF00352A00 /* DelayReverb.h in Headers */,
-				9FD8661016EB66AF00352A00 /* allpass.h in Headers */,
-				9FD8661416EB66AF00352A00 /* comb.h in Headers */,
-				9FD8661616EB66AF00352A00 /* denormals.h in Headers */,
-				9FD8661A16EB66AF00352A00 /* revmodel.h in Headers */,
-				9FD8661C16EB66AF00352A00 /* tuning.h in Headers */,
-				9FD8662016EB66AF00352A00 /* FreeverbModel.h in Headers */,
 				9FD8662E16EB66AF00352A00 /* mmath.h in Headers */,
 				9FD8663C16EB66AF00352A00 /* PartialManager.h in Headers */,
 				9FD8664916EB66AF00352A00 /* sha1.h in Headers */,
@@ -332,20 +257,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD865FB16EB66AF00352A00 /* AReverbModel.h in Headers */,
 				9FD865FF16EB66AF00352A00 /* BReverbModel.h in Headers */,
-				9FD8660316EB66AF00352A00 /* DelayReverb.h in Headers */,
 				9FD8660716EB66AF00352A00 /* File.h in Headers */,
 				9FD8660B16EB66AF00352A00 /* FileStream.h in Headers */,
-				9FD8660F16EB66AF00352A00 /* allpass.h in Headers */,
-				9FD8661316EB66AF00352A00 /* comb.h in Headers */,
-				9FD8661516EB66AF00352A00 /* denormals.h in Headers */,
-				9FD8661916EB66AF00352A00 /* revmodel.h in Headers */,
-				9FD8661B16EB66AF00352A00 /* tuning.h in Headers */,
-				9FD8661F16EB66AF00352A00 /* FreeverbModel.h in Headers */,
 				9FD8662316EB66AF00352A00 /* LA32Ramp.h in Headers */,
 				9FD8662716EB66AF00352A00 /* LA32WaveGenerator.h in Headers */,
-				9FD8662B16EB66AF00352A00 /* LegacyWaveGenerator.h in Headers */,
 				9FD8662D16EB66AF00352A00 /* mmath.h in Headers */,
 				9FD8662F16EB66AF00352A00 /* mt32emu.h in Headers */,
 				9FD8663316EB66AF00352A00 /* Part.h in Headers */,
@@ -360,6 +276,7 @@
 				9FD8665616EB66AF00352A00 /* TVA.h in Headers */,
 				9FD8665A16EB66AF00352A00 /* TVF.h in Headers */,
 				9FD8665E16EB66AF00352A00 /* TVP.h in Headers */,
+				9FC3FAD417E8EF1700E61362 /* LA32FloatWaveGenerator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,18 +360,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD865FA16EB66AF00352A00 /* AReverbModel.cpp in Sources */,
 				9FD865FE16EB66AF00352A00 /* BReverbModel.cpp in Sources */,
-				9FD8660216EB66AF00352A00 /* DelayReverb.cpp in Sources */,
 				9FD8660616EB66AF00352A00 /* File.cpp in Sources */,
 				9FD8660A16EB66AF00352A00 /* FileStream.cpp in Sources */,
-				9FD8660E16EB66AF00352A00 /* allpass.cpp in Sources */,
-				9FD8661216EB66AF00352A00 /* comb.cpp in Sources */,
-				9FD8661816EB66AF00352A00 /* revmodel.cpp in Sources */,
-				9FD8661E16EB66AF00352A00 /* FreeverbModel.cpp in Sources */,
 				9FD8662216EB66AF00352A00 /* LA32Ramp.cpp in Sources */,
 				9FD8662616EB66AF00352A00 /* LA32WaveGenerator.cpp in Sources */,
-				9FD8662A16EB66AF00352A00 /* LegacyWaveGenerator.cpp in Sources */,
 				9FD8663216EB66AF00352A00 /* Part.cpp in Sources */,
 				9FD8663616EB66AF00352A00 /* Partial.cpp in Sources */,
 				9FD8663A16EB66AF00352A00 /* PartialManager.cpp in Sources */,
@@ -473,18 +383,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD865F916EB66AF00352A00 /* AReverbModel.cpp in Sources */,
 				9FD865FD16EB66AF00352A00 /* BReverbModel.cpp in Sources */,
-				9FD8660116EB66AF00352A00 /* DelayReverb.cpp in Sources */,
 				9FD8660516EB66AF00352A00 /* File.cpp in Sources */,
 				9FD8660916EB66AF00352A00 /* FileStream.cpp in Sources */,
-				9FD8660D16EB66AF00352A00 /* allpass.cpp in Sources */,
-				9FD8661116EB66AF00352A00 /* comb.cpp in Sources */,
-				9FD8661716EB66AF00352A00 /* revmodel.cpp in Sources */,
-				9FD8661D16EB66AF00352A00 /* FreeverbModel.cpp in Sources */,
 				9FD8662116EB66AF00352A00 /* LA32Ramp.cpp in Sources */,
 				9FD8662516EB66AF00352A00 /* LA32WaveGenerator.cpp in Sources */,
-				9FD8662916EB66AF00352A00 /* LegacyWaveGenerator.cpp in Sources */,
 				9FD8663116EB66AF00352A00 /* Part.cpp in Sources */,
 				9FD8663516EB66AF00352A00 /* Partial.cpp in Sources */,
 				9FD8663916EB66AF00352A00 /* PartialManager.cpp in Sources */,
@@ -496,6 +399,7 @@
 				9FD8665416EB66AF00352A00 /* TVA.cpp in Sources */,
 				9FD8665816EB66AF00352A00 /* TVF.cpp in Sources */,
 				9FD8665C16EB66AF00352A00 /* TVP.cpp in Sources */,
+				9FC3FAD317E8EF1700E61362 /* LA32FloatWaveGenerator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
